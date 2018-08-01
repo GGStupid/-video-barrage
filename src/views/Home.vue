@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h2>Canvas+WebSocket+redis 事实视屏弹幕</h2>
+    <h2>Canvas+WebSocket+redis 实现视屏弹幕</h2>
     <div id="content">
       <canvas id="canvas"></canvas>
       <video src="/try/demo_source/movie.mp4" id="video" controls></video>
