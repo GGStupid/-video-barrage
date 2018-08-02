@@ -24,7 +24,7 @@ export default class Barrage {
     document.body.removeChild(span);
 
     this.x = this.ctx.canvas.width;
-    this.y = this.ctx.canvas.height;
+    this.y = Math.floor(Math.random() * this.ctx.canvas.height);
 
     if (this.y < this.fontSize) {
       this.y = this.fontSize;

@@ -39,6 +39,8 @@ export default {
     let canvas = $("#canvas");
     let video = $("#video");
 
+    console.log(video);
+
     let socket = new WebSocket("ws://localhost:3000");
     let canvasBarrage;
     socket.onopen = function() {
