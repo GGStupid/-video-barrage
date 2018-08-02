@@ -4,6 +4,8 @@
 
 [Canvas+WebSocket+redis 实现视屏弹幕](https://juejin.im/post/5b579457f265da0fae4f2530)
 
+[使用canvas实现和HTML5 video交互的弹幕效果](https://www.zhangxinxu.com/wordpress/2017/09/html5-canvas-video-barrage/)
+
 ## Project setup
 ```
 yarn install
